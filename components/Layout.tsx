@@ -1,4 +1,5 @@
 import type { FC, ReactNode, ReactElement } from 'react'
+import Navbar from './Navbar'
 
 interface Props {
   children: ReactNode
@@ -7,6 +8,7 @@ interface Props {
 const Layout: FC<Props> = ({ children }): ReactElement => {
   return (
     <>
+      <Navbar />
       {children}
     </>
   )
