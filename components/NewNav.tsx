@@ -20,7 +20,7 @@ const NewNav: FC = (): ReactElement => {
         <div className="flex justify-between items-center">
           <Link href="/">
             <a>
-              <div className="p-2 text-lg">
+              <div className="p-2 font-serif text-xl">
                 <span className="text-red-500">ismaelamezcua</span>
                 <span className="text-neutral-700">.com</span>
               </div>

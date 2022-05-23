@@ -26,7 +26,7 @@ const Navbar: FC = (): ReactElement => {
       <nav className="container mx-auto p-2 lg:p-0 border-b border-neutral-200 relative">
         <div className="flex flex-col">
           <div className="flex flex-row justify-between items-center">
-            <div className="py-2 lg:py-6 text-lg">
+            <div className="py-2 lg:py-6 text-xl font-serif">
               <Link href="/">
                 <a>
                   <span className="text-neutral-700">ismaelamezcua</span>
