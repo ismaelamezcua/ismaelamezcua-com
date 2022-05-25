@@ -5,8 +5,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-      serif: ['"Chakra Petch"', 'serif'],
+      sans: ['Barlow', 'sans-serif'],
     },
     extend: {},
   },
