@@ -41,7 +41,7 @@ const Navbar: FC = (): ReactElement => {
   }
 
   return (
-    <>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
       <nav className="container mx-auto py-6 text-lg px-4">
         <div className="flex justify-between items-center">
           <div className="text-xl">
@@ -68,7 +68,7 @@ const Navbar: FC = (): ReactElement => {
 
         {isMenuOpen && renderMobileMenu()}
       </nav>
-    </>
+    </motion.div>
   )
 }
 
