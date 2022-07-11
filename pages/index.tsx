@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             <span className="hover:text-amber-600 delay-100 ease-linear transition-colors">
               I&apos;m a Software Engineer and Computer Scientist from M&eacute;xico.{` `}
             </span>
-            <span className="hover:text-lime-600 delay-100 ease-linear transition-colors">
+            <span className="text-lime-600 hover:text-lime-700 delay-100 ease-linear transition-colors">
               I really enjoy building great and challenging web applications.{` `}
             </span>
             <span className="hover:text-emerald-600 delay-100 ease-linear transition-colors">
