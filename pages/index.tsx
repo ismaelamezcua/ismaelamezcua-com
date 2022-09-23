@@ -27,12 +27,12 @@ const Home: NextPage = () => {
             </span>
             {/* </Link> */}
           </a>
-          <a href="//www.ucol.mx" target="_blank">
+          <a href="//www.ucol.mx">
             <span className="hover:text-emerald-600 delay-100 ease-linear transition-colors">
               I teach several computer science courses at Universidad de Colima.{` `}
             </span>
           </a>
-          <a href="https://scholar.google.com/citations?user=lTngftoAAAAJ" target="_blank">
+          <a href="https://scholar.google.com/citations?user=lTngftoAAAAJ">
             {/* <Link href="/research"> */}
             <span className="hover:text-cyan-600 delay-100 ease-linear transition-colors">
               I do research in my spare time on Wireless Sensor Networks, Industrial Internet of Things, communication protocols, and Web technologies.{` `}
